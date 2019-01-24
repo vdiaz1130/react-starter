@@ -1,0 +1,17 @@
+{
+  "name": "@gmws/entity",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "echo building libs; tsc --watch",
+    "test": "echo testing lib with version: $npm_package_version"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  }
+}
